@@ -1099,6 +1099,15 @@ body {
     color: var(--white);
 }
 
+.save-contact-method:hover {
+    border-color: #007AFF;
+}
+
+.save-contact-method .method-icon {
+    background: linear-gradient(135deg, #007AFF, #5856D6);
+    color: var(--white);
+}
+
 .method-details {
     display: flex;
     flex-direction: column;
