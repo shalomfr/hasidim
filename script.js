@@ -4,6 +4,9 @@
  */
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize loader
+    initLoader();
+
     // Initialize all features
     initHeader();
     initMobileMenu();
@@ -12,6 +15,24 @@ document.addEventListener('DOMContentLoaded', function() {
     initSmoothScroll();
     initParallax();
 });
+
+/**
+ * Loading screen animation
+ */
+function initLoader() {
+    const loader = document.getElementById('loader');
+
+    // Hide loader after page fully loads
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            loader.classList.add('hidden');
+            document.body.style.overflow = '';
+        }, 1500); // Show loader for at least 1.5 seconds
+    });
+
+    // Prevent scrolling while loading
+    document.body.style.overflow = 'hidden';
+}
 
 /**
  * Header scroll effects
