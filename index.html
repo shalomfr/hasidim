@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מוניות דרך חסידים | נסיעות פנים וחוץ</title>
+    <meta name="description" content="שירות מוניות מקצועי לקהילה החרדית - נהגים יראי שמיים, מענה 24 שעות, רכבים חדישים">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-road"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-main">דרך חסידים</span>
+                    <span class="logo-sub">מוניות</span>
+                </div>
+            </div>
+            <nav class="nav-desktop">
+                <a href="#home">ראשי</a>
+                <a href="#services">שירותים</a>
+                <a href="#features">יתרונות</a>
+                <a href="#contact">צור קשר</a>
+            </nav>
+            <a href="tel:02-5000773" class="header-cta">
+                <i class="fas fa-phone"></i>
+                <span>התקשרו עכשיו</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <nav class="mobile-nav">
+            <a href="#home">ראשי</a>
+            <a href="#services">שירותים</a>
+            <a href="#features">יתרונות</a>
+            <a href="#contact">צור קשר</a>
+            <a href="tel:02-5000773" class="mobile-cta">
+                <i class="fas fa-phone"></i>
+                02-5000773
+            </a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <div class="bsd">בס"ד</div>
+            <h1 class="hero-title">
+                <span class="title-line">מוניות</span>
+                <span class="title-main">דרך חסידים</span>
+            </h1>
+            <p class="hero-subtitle">נסיעות פנים וחוץ בנוחות מרבית</p>
+
+            <div class="hero-badges">
+                <div class="badge">
+                    <i class="fas fa-clock"></i>
+                    <span>24/7</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-star"></i>
+                    <span>נהגים יר"ש</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-car"></i>
+                    <span>רכבים חדישים</span>
+                </div>
+            </div>
+
+            <div class="hero-cta">
+                <a href="tel:02-5000773" class="btn btn-primary btn-glow">
+                    <i class="fas fa-phone-volume"></i>
+                    <span class="btn-text">02-5000773</span>
+                    <span class="btn-subtext">התקשרו עכשיו</span>
+                </a>
+                <a href="https://wa.me/9725000773" class="btn btn-secondary" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>גללו למטה</span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">השירותים שלנו</span>
+                <h2 class="section-title">נסיעות לכל מקום</h2>
+                <p class="section-desc">מגוון שירותי הסעה מקצועיים המותאמים לצרכים שלכם</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-city"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>נסיעות עירוניות</h3>
+                    <p>הסעות בתוך העיר לכל יעד - עבודה, קניות, אירועים ועוד</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-plane-departure"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>נסיעות לשדה תעופה</h3>
+                    <p>הסעות לנתב"ג ומנתב"ג - נגיע בזמן לכל טיסה</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-route"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>נסיעות בין עירוניות</h3>
+                    <p>נסיעות לכל רחבי הארץ - צפון, דרום, יו"ש וכל יעד</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-box"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>שירות משלוחים</h3>
+                    <p>משלוחים מהירים ואמינים לכל כתובת בארץ</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>הסעות קבוצתיות</h3>
+                    <p>הסעות למשפחות ולקבוצות - שמחות, טיולים ואירועים</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-synagogue"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>נסיעות לקברי צדיקים</h3>
+                    <p>הסעות לאומן, מירון, ולכל קברי הצדיקים בארץ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="features-wrapper">
+                <div class="features-content">
+                    <span class="section-tag">למה לבחור בנו?</span>
+                    <h2 class="section-title">היתרונות שלנו</h2>
+
+                    <div class="features-list">
+                        <div class="feature-item" data-aos="fade-left">
+                            <div class="feature-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>מענה 24 שעות</h4>
+                                <p>זמינים עבורכם בכל שעה - יום ולילה, חול ושבת</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item" data-aos="fade-left" data-aos-delay="100">
+                            <div class="feature-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>נהגים יראי שמיים</h4>
+                                <p>נהגים מהקהילה שמבינים את הצרכים הייחודיים</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item" data-aos="fade-left" data-aos-delay="200">
+                            <div class="feature-icon">
+                                <i class="fas fa-stopwatch"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>דיוק בזמנים</h4>
+                                <p>מגיעים בזמן - אמינות היא השם שלנו</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item" data-aos="fade-left" data-aos-delay="300">
+                            <div class="feature-icon">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>רכבים חדישים</h4>
+                                <p>צי רכבים מפנק ומתוחזק ברמה הגבוהה ביותר</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item" data-aos="fade-left" data-aos-delay="400">
+                            <div class="feature-icon">
+                                <i class="fas fa-female"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>אפשרות לנהגת</h4>
+                                <p>נהגות מקצועיות לנוסעות המעדיפות</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="features-visual">
+                    <div class="visual-card">
+                        <div class="languages-card">
+                            <h4><i class="fas fa-globe"></i> אנחנו מדברים</h4>
+                            <div class="languages">
+                                <div class="language">
+                                    <span class="lang-icon">🇮🇱</span>
+                                    <span>עברית</span>
+                                </div>
+                                <div class="language">
+                                    <span class="lang-icon">🇬🇧</span>
+                                    <span>English</span>
+                                </div>
+                                <div class="language">
+                                    <span class="lang-icon">יידיש</span>
+                                    <span>מיר רעדן אידיש</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="stats-card">
+                            <div class="stat">
+                                <span class="stat-number" data-target="1000">0</span>
+                                <span class="stat-plus">+</span>
+                                <span class="stat-label">לקוחות מרוצים</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-target="24">0</span>
+                                <span class="stat-label">שעות שירות</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-target="15">0</span>
+                                <span class="stat-plus">+</span>
+                                <span class="stat-label">רכבים בצי</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">המלצות</span>
+                <h2 class="section-title">מה הלקוחות אומרים</h2>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"שירות מעולה! הנהג הגיע בדיוק בזמן ועזר עם המזוודות. ממליץ בחום!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">מ</div>
+                        <div class="author-info">
+                            <span class="author-name">משה כ.</span>
+                            <span class="author-location">ירושלים</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"הזמנתי הסעה לחתונה ב-3 בלילה וקיבלתי שירות מקצועי ואדיב. תודה רבה!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">י</div>
+                        <div class="author-info">
+                            <span class="author-name">יעקב ל.</span>
+                            <span class="author-location">בני ברק</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"רכב נקי ומפנק, נהג אדיב שמבין את הצרכים של הקהילה. מאוד מרוצה!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ש</div>
+                        <div class="author-info">
+                            <span class="author-name">שרה ג.</span>
+                            <span class="author-location">מודיעין עילית</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-tag">צרו קשר</span>
+                    <h2 class="section-title">מוכנים לנסיעה?</h2>
+                    <p class="contact-desc">התקשרו עכשיו להזמנת נסיעה או לקבלת הצעת מחיר</p>
+
+                    <div class="contact-methods">
+                        <a href="tel:02-5000773" class="contact-method phone-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <span class="method-label">טלפון ראשי</span>
+                                <span class="method-value">02-5000773</span>
+                            </div>
+                        </a>
+
+                        <a href="https://wa.me/9725000773" class="contact-method whatsapp-method" target="_blank">
+                            <div class="method-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="method-details">
+                                <span class="method-label">וואטסאפ</span>
+                                <span class="method-value">שלחו הודעה</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="working-hours">
+                        <h4><i class="fas fa-clock"></i> שעות פעילות</h4>
+                        <p>מענה 24 שעות ביממה, 7 ימים בשבוע</p>
+                        <p class="hours-note">כולל מוצאי שבת וחגים</p>
+                    </div>
+                </div>
+
+                <div class="contact-cta">
+                    <div class="cta-card">
+                        <div class="cta-icon">
+                            <i class="fas fa-taxi"></i>
+                        </div>
+                        <h3>להזמנת מונית עכשיו</h3>
+                        <p>לחצו על הכפתור להתקשרות מיידית</p>
+                        <a href="tel:02-5000773" class="btn btn-primary btn-large btn-glow">
+                            <i class="fas fa-phone-volume"></i>
+                            <span>02-5000773</span>
+                        </a>
+                        <div class="cta-features">
+                            <span><i class="fas fa-check"></i> ללא המתנה</span>
+                            <span><i class="fas fa-check"></i> מחירים הוגנים</span>
+                            <span><i class="fas fa-check"></i> שירות אמין</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-road"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">דרך חסידים</span>
+                            <span class="logo-sub">מוניות</span>
+                        </div>
+                    </div>
+                    <p>שירות מוניות מקצועי ואמין לקהילה החרדית</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>ניווט מהיר</h4>
+                    <a href="#home">ראשי</a>
+                    <a href="#services">שירותים</a>
+                    <a href="#features">יתרונות</a>
+                    <a href="#contact">צור קשר</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>צרו קשר</h4>
+                    <a href="tel:02-5000773"><i class="fas fa-phone"></i> 02-5000773</a>
+                    <a href="https://wa.me/9725000773"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2024 מוניות דרך חסידים. כל הזכויות שמורות.</p>
+                <p class="bsd-footer">בס"ד</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Call Button -->
+    <a href="tel:02-5000773" class="floating-call" title="התקשרו עכשיו">
+        <i class="fas fa-phone-alt"></i>
+        <span class="pulse"></span>
+    </a>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/9725000773" class="floating-whatsapp" target="_blank" title="שלחו הודעה בוואטסאפ">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
